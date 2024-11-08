@@ -1,28 +1,42 @@
-#card{
-    display: flex;
-    margin-top: 50px;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
+.container{
+    margin-top: 20px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 20px;
+   
 }
-
-
-.card-body{
-    border: 1px solid black;
-    border-radius: 20px;
-    width: 20%;
-    padding: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-    box-shadow: 5px 10px 10px ;
-    background-color: #7fff00;
-    color: #ffffff;
-
-}
-.text-white{
+.m-2{
     background-color: #00ffff;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #000000 ;
 }
-
-.count{
+.card-img{
+    height: 220px;
+    width: 200px;
+}
+#qun-num-{
+    font-size: 1.3rem;
+}
+.cards{
+    background-color: #00ffff;
+    font-weight: bolder;
+    box-shadow:20px 20px 20px #000000;
+    border: 2px solid #00ffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.btn-h:hover{
+    color: #1acaca;
+    background-color:#1acaca;
+    box-shadow:15px 15px 15px #1acaca;
+}
+h1{
     font-size: 1.5rem;
 }
+.bg-blue{
+    background-color: #1acaca;
+}
+
+
